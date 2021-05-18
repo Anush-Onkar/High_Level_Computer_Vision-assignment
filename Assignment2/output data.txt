@@ -1,0 +1,301 @@
+Your scores:
+[[0.3644621  0.22911264 0.40642526]
+ [0.47590629 0.17217039 0.35192332]
+ [0.43035767 0.26164229 0.30800004]
+ [0.41583127 0.2983228  0.28584593]
+ [0.36328815 0.32279939 0.31391246]]
+
+correct scores:
+[[0.3644621  0.22911264 0.40642526]
+ [0.47590629 0.17217039 0.35192332]
+ [0.43035767 0.26164229 0.30800004]
+ [0.41583127 0.2983228  0.28584593]
+ [0.36328815 0.32279939 0.31391246]]
+
+Difference between your scores and correct scores:
+2.917341143660046e-08
+Difference between your loss and correct loss:
+1.794120407794253e-13
+W2 max relative error: 3.440708e-09
+b2 max relative error: 3.865070e-11
+W1 max relative error: 3.561318e-09
+b1 max relative error: 1.125423e-09
+Final training loss:  0.01714960793873207
+
+##########################################################################################################
+
+Train data shape:  (49000, 3072)
+Train labels shape:  (49000,)
+Validation data shape:  (1000, 3072)
+Validation labels shape:  (1000,)
+Test data shape:  (1000, 3072)
+Test labels shape:  (1000,)
+
+
+iteration 0 / 1000: loss 2.302954
+iteration 100 / 1000: loss 2.302550
+iteration 200 / 1000: loss 2.297648
+iteration 300 / 1000: loss 2.259602
+iteration 400 / 1000: loss 2.204170
+iteration 500 / 1000: loss 2.118565
+iteration 600 / 1000: loss 2.051535
+iteration 700 / 1000: loss 1.988466
+iteration 800 / 1000: loss 2.006591
+iteration 900 / 1000: loss 1.951473
+Validation accuracy:  0.287
+
+
+iteration 0 / 2000: loss 2.303137
+iteration 100 / 2000: loss 1.904188
+iteration 200 / 2000: loss 1.782291
+iteration 300 / 2000: loss 1.687834
+iteration 400 / 2000: loss 1.561365
+iteration 500 / 2000: loss 1.673445
+iteration 600 / 2000: loss 1.598719
+iteration 700 / 2000: loss 1.503722
+iteration 800 / 2000: loss 1.487551
+iteration 900 / 2000: loss 1.517751
+iteration 1000 / 2000: loss 1.474765
+iteration 1100 / 2000: loss 1.459017
+iteration 1200 / 2000: loss 1.392080
+iteration 1300 / 2000: loss 1.429807
+iteration 1400 / 2000: loss 1.442432
+iteration 1500 / 2000: loss 1.434947
+iteration 1600 / 2000: loss 1.317564
+iteration 1700 / 2000: loss 1.347364
+iteration 1800 / 2000: loss 1.330301
+iteration 1900 / 2000: loss 1.386340
+Best Model
+Hidden layer size:  70
+Number of iterators:  2000
+Batch size:  600
+Learning Rate:  0.001
+Regularization strength:  0.25
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.511
+
+
+Test accuracy:  0.518
+
+
+#####################################################################################################################
+
+Model :  1
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  400
+Learning Rate:  0.001
+Regularization strength:  0.25
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.472
+Test accuracy:  0.476
+iteration 0 / 1000: loss 2.303057
+iteration 100 / 1000: loss 1.941223
+iteration 200 / 1000: loss 1.757708
+iteration 300 / 1000: loss 1.718844
+iteration 400 / 1000: loss 1.646715
+iteration 500 / 1000: loss 1.489401
+iteration 600 / 1000: loss 1.529393
+iteration 700 / 1000: loss 1.494463
+iteration 800 / 1000: loss 1.532311
+iteration 900 / 1000: loss 1.517940
+.
+Model :  2
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  400
+Learning Rate:  0.001
+Regularization strength:  0.3
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.461
+Test accuracy:  0.471
+iteration 0 / 1000: loss 2.303119
+iteration 100 / 1000: loss 1.973539
+iteration 200 / 1000: loss 1.803445
+iteration 300 / 1000: loss 1.697027
+iteration 400 / 1000: loss 1.689783
+iteration 500 / 1000: loss 1.598333
+iteration 600 / 1000: loss 1.685545
+iteration 700 / 1000: loss 1.535282
+iteration 800 / 1000: loss 1.450315
+iteration 900 / 1000: loss 1.487978
+.
+Model :  3
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  400
+Learning Rate:  0.001
+Regularization strength:  0.35
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.484
+Test accuracy:  0.488
+iteration 0 / 1000: loss 2.302965
+iteration 100 / 1000: loss 1.962506
+iteration 200 / 1000: loss 1.759919
+iteration 300 / 1000: loss 1.716366
+iteration 400 / 1000: loss 1.642749
+iteration 500 / 1000: loss 1.588962
+iteration 600 / 1000: loss 1.560887
+iteration 700 / 1000: loss 1.531736
+iteration 800 / 1000: loss 1.517979
+iteration 900 / 1000: loss 1.560618
+.
+Model :  4
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  500
+Learning Rate:  0.001
+Regularization strength:  0.25
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.478
+Test accuracy:  0.467
+iteration 0 / 1000: loss 2.303042
+iteration 100 / 1000: loss 1.904162
+iteration 200 / 1000: loss 1.794330
+iteration 300 / 1000: loss 1.755557
+iteration 400 / 1000: loss 1.672023
+iteration 500 / 1000: loss 1.525590
+iteration 600 / 1000: loss 1.496863
+iteration 700 / 1000: loss 1.563132
+iteration 800 / 1000: loss 1.555040
+iteration 900 / 1000: loss 1.417689
+.
+Model :  5
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  500
+Learning Rate:  0.001
+Regularization strength:  0.3
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.474
+Test accuracy:  0.476
+iteration 0 / 1000: loss 2.303102
+iteration 100 / 1000: loss 1.913749
+iteration 200 / 1000: loss 1.711483
+iteration 300 / 1000: loss 1.681609
+iteration 400 / 1000: loss 1.660277
+iteration 500 / 1000: loss 1.618350
+iteration 600 / 1000: loss 1.571224
+iteration 700 / 1000: loss 1.562352
+iteration 800 / 1000: loss 1.579448
+iteration 900 / 1000: loss 1.512034
+.
+Model :  6
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  500
+Learning Rate:  0.001
+Regularization strength:  0.35
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.464
+Test accuracy:  0.465
+iteration 0 / 1000: loss 2.302991
+iteration 100 / 1000: loss 2.012468
+iteration 200 / 1000: loss 1.769934
+iteration 300 / 1000: loss 1.680743
+iteration 400 / 1000: loss 1.676118
+iteration 500 / 1000: loss 1.580200
+iteration 600 / 1000: loss 1.553221
+iteration 700 / 1000: loss 1.472979
+iteration 800 / 1000: loss 1.481031
+iteration 900 / 1000: loss 1.580775
+.
+Model :  7
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  600
+Learning Rate:  0.001
+Regularization strength:  0.25
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.505
+Test accuracy:  0.496
+iteration 0 / 1000: loss 2.303038
+iteration 100 / 1000: loss 1.986112
+iteration 200 / 1000: loss 1.774786
+iteration 300 / 1000: loss 1.701149
+iteration 400 / 1000: loss 1.621962
+iteration 500 / 1000: loss 1.523702
+iteration 600 / 1000: loss 1.531059
+iteration 700 / 1000: loss 1.588094
+iteration 800 / 1000: loss 1.470089
+iteration 900 / 1000: loss 1.538478
+.
+Model :  8
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  600
+Learning Rate:  0.001
+Regularization strength:  0.3
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.478
+Test accuracy:  0.469
+iteration 0 / 1000: loss 2.303117
+iteration 100 / 1000: loss 1.961375
+iteration 200 / 1000: loss 1.803287
+iteration 300 / 1000: loss 1.697679
+iteration 400 / 1000: loss 1.578547
+iteration 500 / 1000: loss 1.591307
+iteration 600 / 1000: loss 1.562160
+iteration 700 / 1000: loss 1.527343
+iteration 800 / 1000: loss 1.548074
+iteration 900 / 1000: loss 1.556306
+.
+Model :  9
+Hidden layer size:  50
+Number of iterators:  1000
+Batch size:  600
+Learning Rate:  0.001
+Regularization strength:  0.35
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.48
+Test accuracy:  0.492
+iteration 0 / 2000: loss 2.302964
+iteration 100 / 2000: loss 1.967073
+iteration 200 / 2000: loss 1.739149
+iteration 300 / 2000: loss 1.631130
+iteration 400 / 2000: loss 1.637885
+iteration 500 / 2000: loss 1.645635
+iteration 600 / 2000: loss 1.520663
+iteration 700 / 2000: loss 1.492435
+iteration 800 / 2000: loss 1.506548
+iteration 900 / 2000: loss 1.505082
+iteration 1000 / 2000: loss 1.554802
+iteration 1100 / 2000: loss 1.506469
+iteration 1200 / 2000: loss 1.479696
+iteration 1300 / 2000: loss 1.489914
+iteration 1400 / 2000: loss 1.428392
+iteration 1500 / 2000: loss 1.465743
+iteration 1600 / 2000: loss 1.445232
+iteration 1700 / 2000: loss 1.465955
+iteration 1800 / 2000: loss 1.380942
+iteration 1900 / 2000: loss 1.433373
+.
+Model :  10
+Hidden layer size:  50
+Number of iterators:  2000
+Batch size:  400
+Learning Rate:  0.001
+Regularization strength:  0.25
+Learning Rate Decay:  0.95
+New Validation accuracy:  0.503
+Test accuracy:  0.507
+iteration 0 / 2000: loss 2.303060
+iteration 100 / 2000: loss 1.887937
+iteration 200 / 2000: loss 1.718037
+iteration 300 / 2000: loss 1.716188
+iteration 400 / 2000: loss 1.575516
+iteration 500 / 2000: loss 1.630785
+iteration 600 / 2000: loss 1.633290
+iteration 700 / 2000: loss 1.561462
+iteration 800 / 2000: loss 1.507952
+iteration 900 / 2000: loss 1.554533
+iteration 1000 / 2000: loss 1.506293
+iteration 1100 / 2000: loss 1.481473
+iteration 1200 / 2000: loss 1.412969
+iteration 1300 / 2000: loss 1.426353
+iteration 1400 / 2000: loss 1.509733
+iteration 1500 / 2000: loss 1.424383
+iteration 1600 / 2000: loss 1.513917
+iteration 1700 / 2000: loss 1.499758
+iteration 1800 / 2000: loss 1.414269
+iteration 1900 / 2000: loss 1.504316
